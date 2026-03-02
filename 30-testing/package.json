@@ -1,0 +1,30 @@
+{
+	"name": "24-rest-api-basics",
+	"version": "1.0.0",
+	"description": "",
+	"license": "ISC",
+	"author": "",
+	"type": "commonjs",
+	"main": "index.js",
+	"scripts": {
+		"test": "mocha",
+		"start": "nodemon app.js"
+	},
+	"dependencies": {
+		"bcryptjs": "^3.0.3",
+		"body-parser": "^2.2.2",
+		"chai": "^6.2.2",
+		"dotenv": "^17.3.1",
+		"express": "^5.2.1",
+		"express-validator": "^7.3.1",
+		"jsonwebtoken": "^9.0.3",
+		"mocha": "^11.7.5",
+		"mongoose": "^9.2.3",
+		"multer": "^2.0.2",
+		"uuid": "^13.0.0"
+	},
+	"devDependencies": {
+		"nodemon": "^3.1.14",
+		"sinon": "^21.0.1"
+	}
+}
